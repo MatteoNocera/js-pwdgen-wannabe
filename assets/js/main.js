@@ -25,5 +25,5 @@ const favouriteColor = prompt('Which is your favourite color?')
 
 const birthDate = prompt('Which is your birth date? ex. yyyymmdd')
 
-document.getElementById('userinfo').innerHTML = (userName + userLastName + favouriteColor + Number(birthDate) + Math.floor(Math.random() * 100))
+document.getElementById('userinfo').innerHTML = (userName + userLastName + favouriteColor + ((Number(birthDate)) + Math.floor(Math.random() * 100)))
 
