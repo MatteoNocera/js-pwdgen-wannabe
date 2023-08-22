@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#userinfo {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgba(125, 243, 243, 0.973);
+    border: 1px solid rgb(0, 0, 230);
+    border-radius: 5px;
+    
+    padding: 1rem;
+}
